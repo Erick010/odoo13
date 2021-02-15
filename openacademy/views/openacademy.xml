@@ -11,6 +11,7 @@
             <field name="res_model">openacademy.course</field>
             <field name="view_mode">tree,form</field>
             <field name="help" type="html">
+            <field name="context" eval="{'search_default_my_courses': 1}"/>
                 <p class="o_view_nocontent_smiling_face">Crea un nuevo curso
                 </p>
             </field>
